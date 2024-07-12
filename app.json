@@ -1,0 +1,10 @@
+{
+  "name": "Approve-All-JoinRequests",
+  "description": "Approve all pending join requests on your telegram channel with using user session",
+  "keywords": ["telegram", "bot"],
+  "repository": "https://github.com/TonyStarkBotz/Pending-Request-Acceptor",
+  "env": {
+    "SESSION": {"description": "pyrogram v2 session string ⚠️ v2 required ⚠️", "value": ""},              
+  },
+  "buildpacks": [{"url": "heroku/python"}]
+}
